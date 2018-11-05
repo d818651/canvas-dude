@@ -19,3 +19,4 @@ switch (debug) {
 }
 if (debug == true && Date.now() - timer < 200) alert("Please on debug mode in your browser or make debug slower");
 // make legal change and commit via git bash
+// new branch
