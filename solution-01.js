@@ -1,4 +1,4 @@
-var debug = confirm("Debug draw process?");
+var debug = confirm("Debug draw process? Please choose!");
 var timer = Date.now();
 if ((debug) == true) debugger;
 drawHead();
