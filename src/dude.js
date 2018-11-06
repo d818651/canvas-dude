@@ -22,9 +22,11 @@ function drawHead() {
  */
 function drawBody() {
   sheet.beginPath();
+  sheet.lineWidth=10;
   sheet.moveTo(75, 105);
   sheet.lineTo(75, 180);
   sheet.stroke();
+  sheet.lineWidth=1;
 }
 
 /**
